@@ -10,6 +10,7 @@
 // @homepageURL https://github.com/WendysBro/bunkr-albums-autoload-previews
 // @supportURL https://github.com/WendysBro/bunkr-albums-autoload-previews/issues
 // @grant none
+// @icon https://www.google.com/s2/favicons?sz=64&domain=bunkrrr.org
 // @downloadURL https://update.sleazyfork.org/scripts/532909/Bunkr%20Albums%20Enhanced.user.js
 // @updateURL https://update.sleazyfork.org/scripts/532909/Bunkr%20Albums%20Enhanced.meta.js
 // ==/UserScript==
