@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Bunkr Albums Enhanced with Sorting
 // @namespace https://github.com/WendysBro/bunkr-albums-autoload-previews
-// @version 1.2.1
+// @version 1.2.2
 // @description Adds infinite scroll, hover previews, and sorting to Bunkr Albums pages
 // @author WendysBro
 // @match https://bunkr-albums.io/?search=*
@@ -165,6 +165,7 @@
 		setupHoverPreview(album) {
 			const albumLink = this.qs("a[href^='https://bunkr.']", album);
 			if (!albumLink) return;
+			const albumUrl = albumLink.href;
 
 			const albumTextContainer = this.qs('.flex-1.grid.auto-rows-max', album);
 			if (!albumTextContainer) return;
